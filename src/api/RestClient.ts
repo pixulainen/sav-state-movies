@@ -10,10 +10,10 @@ export default class RestClient {
     this.axiosClient = axios.create({ baseURL: this.baseUrl });
   }
 
-  get(url: string, query?: string | number) {
+  get(url: string) {
     return this.axiosClient
       .get(`${this.baseUrl}${url}`, {
-        params: { api_key: this.api_key, query },
+        params: { api_key: this.api_key },
       })
       .then((res) => res)
       .catch((err) => Promise.reject(err));
