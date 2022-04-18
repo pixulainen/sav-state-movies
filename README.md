@@ -9,7 +9,7 @@ Structure React components
 Making HTTP calls
 Communicating between parent and child component
 Using Routing in React
-![Alt text](/homepage/img.png?raw=true 'Homepage')
+![Screenshot](homepage.png)
 
 ## Prerequisites
 
