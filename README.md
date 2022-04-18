@@ -10,6 +10,8 @@ Making HTTP calls
 Communicating between parent and child component
 Using Routing in React
 ![Screenshot](homepage.png)
+![Screenshot](search-state.png)
+![Screenshot](show-info.png)
 
 ## Prerequisites
 
